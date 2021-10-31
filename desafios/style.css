@@ -1,0 +1,19 @@
+input{
+    padding: 20px;
+    font-size: large;
+}
+span#rep{
+    color: red;
+    background: rgba(238, 22, 22, 0.3);
+    font-weight: bold;
+}
+span#rec{
+    color: rgb(255, 153, 0);
+    background: rgba(241, 238, 31, 0.3);
+    font-weight: bold;
+}
+span#apr{
+    color: green;
+    background: rgba(73, 255, 2, 0.651);
+    font-weight: bold;
+}
