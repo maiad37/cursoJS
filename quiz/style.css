@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+body{
+    font-size: 20px;
+    font-family: 'Uchen', serif;
+    color: #333;
+  }
+h2{
+    text-align: center;
+}
+.question{
+    font-weight: 600;
+}
+#getResult{
+    font-family: serif;
+    font-size: 17px;
+    margin-left: 240px;
+    background-color: rgb(97, 48, 129);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+}
+#getResult:hover{
+background-color: rgb(127, 63, 139);
+}
+div.container{
+margin: auto;
+height: fit-content;
+width: 400px;
+box-sizing: border-box;
+padding: 20px;
+border-radius: 4px;
+box-shadow: 1px 1px 4px black;
+background-color: rgb(211, 211, 241);
+}
+#score{
+    font-weight:700;
+}

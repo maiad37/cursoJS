@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>QUIZ</h2>
+        <form id="quiz">
+            <p>1 - How much is 2 * 2?</p>
+            <p><input type="radio" name="q1" value='t' class="inpT">4</p> 
+            <p><input type="radio" name="q1" value='f' class="inpF">5</p> 
+            <p><input type="radio" name="q1" value='f'class="inpF">6</p> 
+
+            <p>2 - How much is 221 * 2?</p>
+            <p><input type="radio" name="q2" value='f' class="inp">441</p> 
+            <p><input type="radio" name="q2" value='t' class="inp">442</p> 
+            <p><input type="radio" name="q2" value='f'class="inp">440</p>
+            <div id="score">CURRENT SCORE: </div>
+            <div id="result"></div> 
+            <button id='getResult' type="button" onclick="showRes()">Get Results</button>   
+        </form>
+    <script src="script.js"></script>
+</body>
+</html>
